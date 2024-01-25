@@ -163,6 +163,8 @@ public:
     bool _underConstruct;
     bool _gearLocked;
     bool _alignToBL;
+    int _index;
+    int _type;
 
 protected:
     GComponent* _parent;
